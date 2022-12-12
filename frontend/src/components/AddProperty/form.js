@@ -58,6 +58,7 @@ const Form = () => {
 
     function handleSubmit() {
         axios.post('http://localhost:3010/add', formData).then((res) =>{ 
+           // axios.post('https://realestate-b.herokuapp.com/add', formData).then((res) =>{ 
             console.log(res);
             navigate("/listproperty");
     })

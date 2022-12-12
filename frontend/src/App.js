@@ -14,7 +14,7 @@ function App() {
    
       <BrowserRouter>
       <Routes>
-            <Route path="/" element={<Signin/>}></Route>
+            <Route exact path="/" element={<Signin/>}></Route>
              <Route path="/signup" element={<Signup/>}></Route> 
             <Route path="/listproperty" element={<PropertyView/>}></Route>
             <Route path="/addproperty" element={<AddProperty/>}></Route>

@@ -31,7 +31,7 @@ app.listen(process.env.PORT || 3010, (err)=> {
 });
 
 
-//mongo db connection
+// //mongo db connection
 // const mongoDB = process.env.ATLAS_URI;
 // mongoose.connect(mongoDB, {}).then((res) => {
 //     console.log("connected to db")
@@ -40,7 +40,7 @@ app.listen(process.env.PORT || 3010, (err)=> {
 // })
 
 //mongoose.connect("mongodb://localhost/realEstate", (data)=> {
-    mongoose.connect("mongodb+srv://pranjay:Pranjay9199@cluster0.mzmgp.mongodb.net/realEstateData?retryWrites=true&w=majority",()=>{
+    mongoose.connect("mongodb+srv://Navyaa:Navya29@cluster0.vv8toxm.mongodb.net/?retryWrites=true&w=majority",()=>{
     console.log("Successfully connected to db");
 }, (err)=> {
     console.log(err)

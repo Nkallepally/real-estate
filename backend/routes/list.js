@@ -5,7 +5,7 @@ const signupModal = require("../models/signup-Modal");
 const  listModel=require("../models/list");
 
 
-router.get("/", (req, res) => {
+router.get("/list", (req, res) => {
 
     if (req.headers.authorization) {
         try {
